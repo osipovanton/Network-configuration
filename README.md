@@ -8,6 +8,8 @@
 | R1            | R2            | R3|
 | ------------- | ------------- | ------------- |
 | en  
-conf t | en   |en |
-| conf t  | conf t  |conf t|
-|hostname R1|hostname R2|hostname R3|
+conf t 
+hostname R1
+| en   |en |
+|  | conf t  |conf t|
+||hostname R2|hostname R3|
