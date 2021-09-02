@@ -46,3 +46,10 @@ ip route 192.168.3.0 255.255.255.0 172.16.2.2| ip route 192.168.3.0 255.255.255.
 exit| exit  |exit |
 do copy running-config startup-config| do copy running-config startup-config  | do copy running-config startup-config|
 exit| exit  |exit|
+
+Test GRE
+|R1             |R2             |R3             |
+| ------------- | ------------- | ------------- | 
+|![image](https://user-images.githubusercontent.com/79700810/131826589-4a82a634-9c51-441b-9b6a-e6ddd39f08e8.png)| ![image](https://user-images.githubusercontent.com/79700810/131826684-4a9265db-6a53-4c58-8ba6-bcfcd5c9600a.png)| ![image](https://user-images.githubusercontent.com/79700810/131826760-7fb55ffa-c190-425b-97ed-145810f4ef83.png)|
+
+
