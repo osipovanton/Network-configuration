@@ -5,3 +5,7 @@
 
 ![gre2-Page-2 drawio](https://user-images.githubusercontent.com/79700810/131821736-34571abd-b15b-4984-aee8-9464dfb0841f.png)
 
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
