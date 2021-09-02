@@ -7,6 +7,7 @@
 
 | R1            | R2            | R3|
 | ------------- | ------------- | ------------- |
-| en   | en   |en |
+| en  
+conf t | en   |en |
 | conf t  | conf t  |conf t|
 |hostname R1|hostname R2|hostname R3|
