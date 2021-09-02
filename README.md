@@ -45,5 +45,4 @@ ip route 192.168.1.0 255.255.255.0 172.16.1.2| ip route 192.168.2.0 255.255.255.
 ip route 192.168.3.0 255.255.255.0 172.16.2.2| ip route 192.168.3.0 255.255.255.0 172.16.3.2  |ip route 192.168.2.0 255.255.255.0 172.16.2.1 |
 exit| exit  |exit |
 do copy running-config startup-config| do copy running-config startup-config  | do copy running-config startup-config|
-exit| exit  |exit
- |
+exit| exit  |exit|
