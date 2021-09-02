@@ -39,37 +39,4 @@ ip route 192.168.3.0 255.255.255.0 172.16.2.2
 exit
 do copy running-config startup-config
 exit
-
-en 
-conf t
-hostname R2
-interface gigabitethernet 0/0/0
-no shutdown
-ip address 212.12.12.2 255.255.255.248
-exit
-interface gigabitethernet 0/0/1
-no shutdown
-ip address 212.12.12.20 255.255.255.248
-exit
-interface loopback 1 
-no shutdown
-ip address 192.168.1.1 255.255.255.0
-exit
-interface Tunne1
-ip address 172.16.1.2 255.255.255.0
-tunnel mode gre ip
-tunnel source gigabitEthernet 0/0/0
-tunnel destination 212.12.12.1
-exit
-interface Tunne3
-ip address 172.16.3.1 255.255.255.0
-tunnel mode gre ip
-tunnel source gigabitEthernet 0/0/1
-tunnel destination 212.12.12.21
-exit
-ip route 192.168.2.0 255.255.255.0 172.16.1.1
-ip route 192.168.3.0 255.255.255.0 172.16.3.2
-exit
-do copy running-config startup-config
-exit
-|
+||esds
