@@ -7,5 +7,6 @@
 
 | R1            | R2            | R3|
 | ------------- | ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| en   | en   |en |
+| conf t  | conf t  |conf t|
+|hostname R1|hostname R2|hostname R3|
