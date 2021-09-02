@@ -7,7 +7,7 @@
 
 | R1            | R2            | R3|
 | ------------- | ------------- | ------------- |
-| en  
+| en                             
 conf t 
 hostname R1
 interface gigabitethernet 0/0/0
@@ -39,7 +39,7 @@ ip route 192.168.3.0 255.255.255.0 172.16.2.2
 exit
 do copy running-config startup-config
 exit
-|
+
 en 
 conf t
 hostname R2
